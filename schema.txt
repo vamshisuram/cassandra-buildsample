@@ -1,4 +1,3 @@
-drop keyspace shippableDemo;
 
 create keyspace shippableDemo
     with placement_strategy = 'org.apache.cassandra.locator.SimpleStrategy'
